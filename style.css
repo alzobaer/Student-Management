@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: skyblue;
+    height: 50px;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    left: 5%;
+    line-height: 50px;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-right: 15px;  
+}
+
+ul li{
+    display: inline-block;
+    line-height: 50px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px;
+    
+}
+.section1{
+    padding-top: 50px;
+}
+.section1 img{
+    height: 270px;
+    width: 100%;
+}
+.section1 .img_text{
+    position: absolute;
+    top: 14%;
+    left: 34%;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(81, 5, 152);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.welcome_img{
+    height: 250px;
+    width: 100%;
+}
+.container{
+    padding-top: 60px;
+}
+.welcome_text{
+    font-size: 18px;
+}
+.teacher{
+    width: 90%;
+    height: 245px;
+}
+.teacher-des{
+    width: 90%;
+}
+.course_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inp_design{
+    height: 40px;
+    width: 30%;
+    border-radius: 20px;
+}
+.space_line{
+    padding-top: 15px;
+}
+.input_text{
+    height: 100px;
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#submit{
+    position: relative;
+    height: 40px;
+    width: 15%;
+}
+.admission_form{
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+}
+.footer_text{
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+}
